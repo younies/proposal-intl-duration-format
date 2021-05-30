@@ -34,7 +34,7 @@ This proposal reached Stage 1 at the 2020 Feb TC39 meeting.
 # Quick Start Example
 
 ```javascript
-new Intl.DurationFormat("fr-FR", { style: "long" }).format({
+new Intl.DurationFormat("fr-FR", { style: "wide" }).format({
     hours: 1,
     minutes: 46,
     seconds: 40,
